@@ -1,7 +1,49 @@
 .footer {
-    background-color: #FAFAFA;
+  background-color: #fafafa;
+  padding-top: 115px;
+  padding-bottom: 35px;
 
-    &__nav {
-        border-bottom: 1px solid #000000;
+  &__nav {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 53px;
+    margin-bottom: 55px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-areas: 'one two three four five';
+    justify-items: center;
+    align-items: center;
+    column-gap: 80px;
+  }
+
+  &__item--logo {
+    grid-area: three;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.4;
+
+    &__first {
+        grid-area: one;
     }
+
+    &__second {
+        grid-area: two;
+    }
+
+    &__fourth {
+        grid-area: four;
+    }
+
+    &__fifth {
+        grid-area: five;
+    }
+  }
 }

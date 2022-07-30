@@ -1,17 +1,32 @@
 .card {
-    transition: box-shadow 250ms linear;
+  transition: box-shadow 250ms linear;
+  padding: 48px 48px 50px 48px;
 
-    &:hover,
-    &:focus {
-        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
-    }
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 
-    &__heading {
-        font-size: 24px;
-    }
+  &:hover,
+  &:focus {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  }
 
-    &__link {
-        font-size: 14px;
-        color: #000;
+  &__heading {
+    margin-bottom: 16px;
+
+    font-size: 24px;
+
+    &--bottom {
+      margin-bottom: 50px;
     }
+  }
+
+  &__description {
+    margin-bottom: 16px;
+  }
+
+  &__link {
+    font-size: 14px;
+    color: #000;
+  }
 }

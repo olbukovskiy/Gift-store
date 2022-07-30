@@ -1,23 +1,33 @@
 .encourage {
-    background-color: #F7941E;
-    max-width: 1440px;
-    margin: 0 auto;
+  background-color: #f7941e;
+  max-width: 1440px;
+  margin: 0 auto;
 
-    &__heading {
-        font-size: 32px;
-        line-height: 1.4;
-        grid-area: title;
-    }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-    &__description {
-        font-size: 32px;
-        line-height: 1.4;
-        grid-area: text;
-    }
+  &__thumb {
+    margin-right: 230px;
+    padding-top: 81px;
+    padding-bottom: 69px;
+  }
 
-    &__list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 16px;
-    }
+  &__heading {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+
+  &__description {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    column-gap: 16px;
+  }
 }
