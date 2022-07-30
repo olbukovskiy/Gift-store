@@ -1,14 +1,23 @@
 .encourage {
     background-color: #F7941E;
     max-width: 1440px;
+    margin: 0 auto;
 
     &__heading {
         font-size: 32px;
         line-height: 1.4;
+        grid-area: title;
     }
 
     &__description {
         font-size: 32px;
         line-height: 1.4;
+        grid-area: text;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 16px;
     }
 }

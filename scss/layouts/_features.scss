@@ -1,14 +1,31 @@
 .features {
   background-color: #F1F1F2;
   max-width: 1440px;
+  margin-left: auto;
+    margin-right: auto;
+
+  &__content {
+    box-sizing: content-box;
+    width: 441px;
+    height: 332px;
+    padding: 164px 166px 104px 112px;
+  }
+
+  &__container {
+    display: flex;
+  }
 
   &__heading {
     font-size: 32px;
     line-height: 1.4;
+
+    margin-bottom: 23px;
   }
 
   &__description {
     font-size: 20px;
     line-height: 1.4;
+
+    margin-bottom: 35px;
   }
 }

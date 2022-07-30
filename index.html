@@ -16,35 +16,41 @@
   </head>
   <body>
     <header class="header">
-      <div class="container container__header">
+      <div class="container header__container">
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a class="nav__link" href="./index.html"
-                ><svg class="logo logo--orange" width="41" height="39">
+              <a class="nav__link nav__link--less-padding" href="./index.html"
+                ><svg class="logo" width="41" height="39">
                   <use href="./images/symbol-defs.svg#logo"></use></svg
               ></a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="./index.html">Home</a>
+              <a class="nav__link nav__link--padding" href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="#about">About Us</a>
+              <a class="nav__link nav__link--padding" href="#about">About Us</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="#services">Services</a>
+              <a class="nav__link nav__link--padding" href="#services"
+                >Services</a
+              >
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="#blogs-id">Blogs</a>
+              <a class="nav__link nav__link--padding" href="#blogs-id">Blogs</a>
             </li>
           </ul>
         </nav>
-        <button class="button button--color" type="button">Gift Finder</button>
+        <button class="button button--color header__button" type="button">
+          Gift Finder
+        </button>
       </div>
     </header>
     <main>
       <section class="hero" id="about">
-        <div class="container">
+        <div class="container hero__container">
           <div class="hero__content">
             <h1 class="hero__heading">
               Find a gift for your wife or girlfriend
@@ -69,7 +75,7 @@
         </div>
       </section>
       <section class="features">
-        <div class="container">
+        <div class="container features__container">
           <img
             srcset="./images/Media1-719.jpg 1x, ./images/Media1-1438.jpg 2x"
             src="./images/Media1-719.jpg"
@@ -108,7 +114,7 @@
                 />
               </div>
               <div class="content__cont">
-                <h3 class="content__heaading">Birthday</h3>
+                <h3 class="content__heading">Birthday</h3>
                 <a class="content__link" href="./index.html"
                   >See More &#8250;</a
                 >
@@ -126,7 +132,7 @@
                 />
               </div>
               <div class="content__cont">
-                <h3 class="content__heaading">Anniversary</h3>
+                <h3 class="content__heading">Anniversary</h3>
                 <a class="content__link" href="./index.html"
                   >See More &#8250;</a
                 >
@@ -144,7 +150,7 @@
                 />
               </div>
               <div class="content__cont">
-                <h3 class="content__heaading">Valentine&#39;s Day</h3>
+                <h3 class="content__heading">Valentine&#39;s Day</h3>
                 <a class="content__link" href="./index.html"
                   >See More &#8250;</a
                 >
@@ -162,7 +168,7 @@
                 />
               </div>
               <div class="content__cont">
-                <h3 class="content__heaading">Christmas</h3>
+                <h3 class="content__heading">Christmas</h3>
                 <a class="content__link" href="./index.html"
                   >See More &#8250;</a
                 >
@@ -172,20 +178,20 @@
         </div>
       </section>
       <section class="encourage">
-        <div class="container">
+        <div class="container encourage__container">
           <h2 class="encorage-heading">Ready to get started&#63;</h2>
           <p class="encorage-description">Sign up or contact us</p>
+          <ul class="encourage__list">
+            <li>
+              <button class="button button--black" type="button">
+                Find gift now
+              </button>
+            </li>
+            <li>
+              <a class="link link--black" href="./index.html">how it works</a>
+            </li>
+          </ul>
         </div>
-        <ul class="encourage__list">
-          <li>
-            <button class="button button--black" type="button">
-              Find gift now
-            </button>
-          </li>
-          <li>
-            <a class="link link--black" href="./index.html">how it works</a>
-          </li>
-        </ul>
       </section>
       <section class="section blogs" id="blogs-id">
         <div class="container container__main">
@@ -238,7 +244,7 @@
       </section>
       <footer class="footer">
         <div class="container container__footer">
-          <nav class="nav">
+          <nav class="nav footer__nav">
             <ul class="nav__list">
               <li class="nav__item nav__item--logo">
                 <a class="nav__link" href="./index.html"

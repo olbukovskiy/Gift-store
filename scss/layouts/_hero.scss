@@ -1,14 +1,31 @@
 .hero {
   background-color: #F1F1F2;
   max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &__container {
+    display: flex;
+  }
+
+  &__content {
+    box-sizing: content-box;
+    width: 433px;
+    height: 411px;
+    padding: 154px 126px 135px 162px;
+  }
 
   &__heading {
     font-size: 56px;
     line-height: 1.23;
+
+    margin-bottom: 36px;
   }
 
-  &__description {
+  &__descritpion {
     font-size: 20px;
     line-height: 1.4;
+
+    margin-bottom: 52px;
   }
 }

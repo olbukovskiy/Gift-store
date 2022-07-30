@@ -1,6 +1,4 @@
 .nav {
-  border-bottom: 1px solid #000000;
-
   &__link {
     line-height: 1.17;
     color: #000000;
@@ -10,9 +8,37 @@
       line-height: 1.4;
       font-weight: 600;
     }
+
+    &--padding {
+      padding-top: 47px;
+      padding-bottom: 47px;
+    }
+
+    &--less-padding {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: 39px 0 38px 0;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:first-child {
+      margin-right: 433px;
+    }
+
+    &:nth-child(n + 3) {
+      margin-left: 31px;
+    }
   }
 }
 
 .nav__list {
   display: flex;
+  align-items: center;
 }
