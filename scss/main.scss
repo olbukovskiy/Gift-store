@@ -8,3 +8,21 @@
 
 
 @import './utils/_vars.scss';
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/features';
+@import './layouts/content';
+@import './layouts/encourage';
+@import './layouts/blogs';
+@import './layouts/footer';
+
+@import './components/logo';
+@import './components/nav';
+@import './components/button';
+@import './components/title';
+@import './components/text';
+@import './components/card-set/index';
+@import './components/blog';
+@import './components/social';
+@import './components/privacy'
