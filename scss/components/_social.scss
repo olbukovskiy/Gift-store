@@ -1,16 +1,24 @@
 .social {
   &__link {
-   color: #fff;
-
-   &:hover {
-    color: #000;
+    display: inline-block;
     background-color: #fff;
-   }
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+
+    &:hover,
+    &:focus {
+      background-color: #000;
+      color: #fff;
+    }
   }
 
   &__icon {
-    color: currentColor;
+    fill: currentColor;
   }
-
-
 }

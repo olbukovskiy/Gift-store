@@ -1,9 +1,18 @@
 .logo {
-    fill: #231F20;
+  fill: #231f20;
 
-    transition: fill 250ms linear;
+  transition: fill 250ms linear;
 
-    &:hover {
-        fill: $orange-color;
+  &:hover {
+    fill: $orange-color;
+  }
+
+  &--orange {
+    fill: $orange-color;
+
+    &:hover,
+    &:focus {
+      fill: #000;
     }
+  }
 }
