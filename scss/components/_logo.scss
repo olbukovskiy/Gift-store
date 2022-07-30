@@ -1,0 +1,9 @@
+.logo {
+    fill: #231F20;
+
+    transition: fill 250ms linear;
+
+    &:hover {
+        fill: $orange-color;
+    }
+}

@@ -1,0 +1,16 @@
+.social {
+  &__link {
+   color: #fff;
+
+   &:hover {
+    color: #000;
+    background-color: #fff;
+   }
+  }
+
+  &__icon {
+    color: currentColor;
+  }
+
+
+}

@@ -1,0 +1,43 @@
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 60px;
+  padding: 19px 23px;
+
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #f7941e;
+  text-transform: uppercase;
+
+  transition-property: color, border-color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+
+  &:hover,
+  &:focus {
+    border-color: transparent;
+    background-color: #f7941e;
+    color: #fff;
+  }
+
+  &--black {
+    border: 1px solid #000;
+    background-color: transparent;
+    color: #000;
+
+    transition-property: color, border-color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+
+    &:hover,
+    &:focus {
+      border-color: transparent;
+      background-color: #000;
+      color: #fff;
+    }
+  }
+}

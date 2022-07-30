@@ -1,0 +1,14 @@
+.hero {
+  background-color: #F1F1F2;
+  max-width: 1440px;
+
+  &__heading {
+    font-size: 56px;
+    line-height: 1.23;
+  }
+
+  &__description {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}

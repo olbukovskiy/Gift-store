@@ -1,0 +1,35 @@
+.content {
+  &__item {
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+
+    &:hover,
+    &:focus {
+      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  &__cont {
+    background-color: #fafafa;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+
+    .content__item:hover & {
+      background-color: #fff;
+    }
+  }
+
+  &__heading {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: 1.35;
+    color: #000;
+  }
+}

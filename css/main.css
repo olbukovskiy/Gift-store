@@ -298,4 +298,279 @@ body {
 .thumb {
   width: 270px;
   height: 270px;
+}
+
+.hero {
+  background-color: #F1F1F2;
+  max-width: 1440px;
+}
+.hero__heading {
+  font-size: 56px;
+  line-height: 1.23;
+}
+.hero__description {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.features {
+  background-color: #F1F1F2;
+  max-width: 1440px;
+}
+.features__heading {
+  font-size: 32px;
+  line-height: 1.4;
+}
+.features__description {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.content__item {
+  -webkit-transition-property: -webkit-box-shadow;
+  transition-property: -webkit-box-shadow;
+  transition-property: box-shadow;
+  transition-property: box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.content__item:hover, .content__item:focus {
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.content__cont {
+  background-color: #fafafa;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.content__item:hover .content__cont {
+  background-color: #fff;
+}
+.content__heading {
+  font-size: 20px;
+  line-height: 1.2;
+}
+.content__link {
+  font-size: 14px;
+  line-height: 1.35;
+  color: #000;
+}
+
+.encourage {
+  background-color: #F7941E;
+  max-width: 1440px;
+}
+.encourage__heading {
+  font-size: 32px;
+  line-height: 1.4;
+}
+.encourage__description {
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.footer {
+  background-color: #FAFAFA;
+}
+
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 60px;
+  padding: 19px 23px;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #f7941e;
+  text-transform: uppercase;
+  -webkit-transition-property: color, border-color, background-color;
+  transition-property: color, border-color, background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.link:hover, .link:focus {
+  border-color: transparent;
+  background-color: #f7941e;
+  color: #fff;
+}
+.link--black {
+  border: 1px solid #000;
+  background-color: transparent;
+  color: #000;
+  -webkit-transition-property: color, border-color, background-color;
+  transition-property: color, border-color, background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.link--black:hover, .link--black:focus {
+  border-color: transparent;
+  background-color: #000;
+  color: #fff;
+}
+
+.logo {
+  fill: #231F20;
+  -webkit-transition: fill 250ms linear;
+  transition: fill 250ms linear;
+}
+.logo:hover {
+  fill: #F7941E;
+}
+
+.nav {
+  border-bottom: 1px solid #000000;
+}
+.nav__link {
+  line-height: 1.17;
+  color: #000000;
+}
+.nav__link--black {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button {
+  width: 200px;
+  height: 60px;
+  padding: 19px 23px;
+  border-radius: 5px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.button--color {
+  border: 1px solid #f7941e;
+  background-color: transparent;
+  color: #f7941e;
+  -webkit-transition-property: color, border-color, background-color;
+  transition-property: color, border-color, background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.button--color:hover, .button--color:focus {
+  border-color: transparent;
+  background-color: #f7941e;
+  color: #fff;
+}
+.button--orange {
+  border: 1px solid transparent;
+  background-color: #f7941e;
+  color: #fff;
+  -webkit-transition-property: color, border-color, background-color;
+  transition-property: color, border-color, background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.button--orange:hover, .button--orange:focus {
+  border-color: #f7941e;
+  background-color: transparent;
+  color: #f7941e;
+}
+.button--black {
+  border: 1px solid transparent;
+  background-color: #000;
+  color: #fff;
+  -webkit-transition-property: color, border-color, background-color;
+  transition-property: color, border-color, background-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+.button--black:hover, .button--black:focus {
+  border-color: #000;
+  background-color: transparent;
+  color: #000;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.card {
+  -webkit-transition: -webkit-box-shadow 250ms linear;
+  transition: -webkit-box-shadow 250ms linear;
+  transition: box-shadow 250ms linear;
+  transition: box-shadow 250ms linear, -webkit-box-shadow 250ms linear;
+}
+.card:hover, .card:focus {
+  -webkit-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.card__heading {
+  font-size: 24px;
+}
+.card__link {
+  font-size: 14px;
+  color: #000;
+}
+
+.blog__content {
+  background-color: #231f20;
+}
+.blog__author {
+  color: #fff;
+  font-size: 14px;
+}
+.blog__heading {
+  font-size: 48px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+.blog__link--white {
+  color: #ffffff;
+}
+
+.social__link {
+  color: #fff;
+}
+.social__link:hover {
+  color: #000;
+  background-color: #fff;
+}
+.social__icon {
+  color: currentColor;
+}
+
+.privacy__date {
+  font-size: 14px;
+}
+.privacy__terms {
+  font-size: 14px;
 }/*# sourceMappingURL=main.css.map */
